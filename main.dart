@@ -1,6 +1,7 @@
 void main(List<String> args) {
-  print('hello world!');
+  String? name = 'charles';
 
-  String name = 'charles';
-  name = 'nice';
+  name = null;
+
+  print(name?.isNotEmpty == true ? 'not empty' : 'empty');
 }
