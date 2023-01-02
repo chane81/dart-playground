@@ -14,5 +14,5 @@ main() {
 
   // expect: error
   // The late local variable 'age' is definitely unassigned at this point.
-  print(age);
+  // print(age);
 }
