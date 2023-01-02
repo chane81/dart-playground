@@ -1,0 +1,3 @@
+main() {
+  const API_KEY = 'API_KEY_NICE';
+}
